@@ -22,42 +22,29 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnTimesTable = New System.Windows.Forms.Button()
-        Me.txtTimesTable = New System.Windows.Forms.TextBox()
+        Me.btnStart = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'btnTimesTable
+        'btnStart
         '
-        Me.btnTimesTable.Location = New System.Drawing.Point(484, 272)
-        Me.btnTimesTable.Name = "btnTimesTable"
-        Me.btnTimesTable.Size = New System.Drawing.Size(140, 97)
-        Me.btnTimesTable.TabIndex = 0
-        Me.btnTimesTable.Text = "TimesTable"
-        Me.btnTimesTable.UseVisualStyleBackColor = True
-        '
-        'txtTimesTable
-        '
-        Me.txtTimesTable.Location = New System.Drawing.Point(60, 86)
-        Me.txtTimesTable.Multiline = True
-        Me.txtTimesTable.Name = "txtTimesTable"
-        Me.txtTimesTable.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtTimesTable.Size = New System.Drawing.Size(233, 186)
-        Me.txtTimesTable.TabIndex = 1
+        Me.btnStart.Location = New System.Drawing.Point(337, 332)
+        Me.btnStart.Name = "btnStart"
+        Me.btnStart.Size = New System.Drawing.Size(85, 40)
+        Me.btnStart.TabIndex = 0
+        Me.btnStart.Text = "Start"
+        Me.btnStart.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1026, 603)
-        Me.Controls.Add(Me.txtTimesTable)
-        Me.Controls.Add(Me.btnTimesTable)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnStart)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents btnTimesTable As Button
-    Friend WithEvents txtTimesTable As TextBox
+    Friend WithEvents btnStart As Button
 End Class

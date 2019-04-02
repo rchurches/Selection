@@ -22,35 +22,35 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnTimesTable = New System.Windows.Forms.Button()
-        Me.txtTimesTable = New System.Windows.Forms.TextBox()
+        Me.btnRead = New System.Windows.Forms.Button()
+        Me.txtDisplay = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'btnTimesTable
+        'btnRead
         '
-        Me.btnTimesTable.Location = New System.Drawing.Point(484, 272)
-        Me.btnTimesTable.Name = "btnTimesTable"
-        Me.btnTimesTable.Size = New System.Drawing.Size(140, 97)
-        Me.btnTimesTable.TabIndex = 0
-        Me.btnTimesTable.Text = "TimesTable"
-        Me.btnTimesTable.UseVisualStyleBackColor = True
+        Me.btnRead.Location = New System.Drawing.Point(388, 193)
+        Me.btnRead.Name = "btnRead"
+        Me.btnRead.Size = New System.Drawing.Size(307, 226)
+        Me.btnRead.TabIndex = 0
+        Me.btnRead.Text = "Read from existing text"
+        Me.btnRead.UseVisualStyleBackColor = True
         '
-        'txtTimesTable
+        'txtDisplay
         '
-        Me.txtTimesTable.Location = New System.Drawing.Point(60, 86)
-        Me.txtTimesTable.Multiline = True
-        Me.txtTimesTable.Name = "txtTimesTable"
-        Me.txtTimesTable.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtTimesTable.Size = New System.Drawing.Size(233, 186)
-        Me.txtTimesTable.TabIndex = 1
+        Me.txtDisplay.Location = New System.Drawing.Point(49, 157)
+        Me.txtDisplay.Multiline = True
+        Me.txtDisplay.Name = "txtDisplay"
+        Me.txtDisplay.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txtDisplay.Size = New System.Drawing.Size(195, 365)
+        Me.txtDisplay.TabIndex = 1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1026, 603)
-        Me.Controls.Add(Me.txtTimesTable)
-        Me.Controls.Add(Me.btnTimesTable)
+        Me.ClientSize = New System.Drawing.Size(1034, 592)
+        Me.Controls.Add(Me.txtDisplay)
+        Me.Controls.Add(Me.btnRead)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -58,6 +58,6 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents btnTimesTable As Button
-    Friend WithEvents txtTimesTable As TextBox
+    Friend WithEvents btnRead As Button
+    Friend WithEvents txtDisplay As TextBox
 End Class

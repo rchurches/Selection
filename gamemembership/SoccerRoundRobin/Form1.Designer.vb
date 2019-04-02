@@ -22,35 +22,34 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnTimesTable = New System.Windows.Forms.Button()
-        Me.txtTimesTable = New System.Windows.Forms.TextBox()
+        Me.txtResults = New System.Windows.Forms.TextBox()
+        Me.btnScores = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'btnTimesTable
+        'txtResults
         '
-        Me.btnTimesTable.Location = New System.Drawing.Point(484, 272)
-        Me.btnTimesTable.Name = "btnTimesTable"
-        Me.btnTimesTable.Size = New System.Drawing.Size(140, 97)
-        Me.btnTimesTable.TabIndex = 0
-        Me.btnTimesTable.Text = "TimesTable"
-        Me.btnTimesTable.UseVisualStyleBackColor = True
+        Me.txtResults.Location = New System.Drawing.Point(666, 224)
+        Me.txtResults.Multiline = True
+        Me.txtResults.Name = "txtResults"
+        Me.txtResults.Size = New System.Drawing.Size(652, 605)
+        Me.txtResults.TabIndex = 0
         '
-        'txtTimesTable
+        'btnScores
         '
-        Me.txtTimesTable.Location = New System.Drawing.Point(60, 86)
-        Me.txtTimesTable.Multiline = True
-        Me.txtTimesTable.Name = "txtTimesTable"
-        Me.txtTimesTable.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtTimesTable.Size = New System.Drawing.Size(233, 186)
-        Me.txtTimesTable.TabIndex = 1
+        Me.btnScores.Location = New System.Drawing.Point(229, 592)
+        Me.btnScores.Name = "btnScores"
+        Me.btnScores.Size = New System.Drawing.Size(195, 123)
+        Me.btnScores.TabIndex = 1
+        Me.btnScores.Text = "Enter Scores"
+        Me.btnScores.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1026, 603)
-        Me.Controls.Add(Me.txtTimesTable)
-        Me.Controls.Add(Me.btnTimesTable)
+        Me.ClientSize = New System.Drawing.Size(1406, 921)
+        Me.Controls.Add(Me.btnScores)
+        Me.Controls.Add(Me.txtResults)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -58,6 +57,6 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents btnTimesTable As Button
-    Friend WithEvents txtTimesTable As TextBox
+    Friend WithEvents txtResults As TextBox
+    Friend WithEvents btnScores As Button
 End Class

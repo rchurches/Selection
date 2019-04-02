@@ -22,35 +22,35 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnTimesTable = New System.Windows.Forms.Button()
-        Me.txtTimesTable = New System.Windows.Forms.TextBox()
+        Me.btnScore = New System.Windows.Forms.Button()
+        Me.txtScoreboard = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'btnTimesTable
+        'btnScore
         '
-        Me.btnTimesTable.Location = New System.Drawing.Point(484, 272)
-        Me.btnTimesTable.Name = "btnTimesTable"
-        Me.btnTimesTable.Size = New System.Drawing.Size(140, 97)
-        Me.btnTimesTable.TabIndex = 0
-        Me.btnTimesTable.Text = "TimesTable"
-        Me.btnTimesTable.UseVisualStyleBackColor = True
+        Me.btnScore.Location = New System.Drawing.Point(407, 590)
+        Me.btnScore.Name = "btnScore"
+        Me.btnScore.Size = New System.Drawing.Size(286, 162)
+        Me.btnScore.TabIndex = 0
+        Me.btnScore.Text = "Score"
+        Me.btnScore.UseVisualStyleBackColor = True
         '
-        'txtTimesTable
+        'txtScoreboard
         '
-        Me.txtTimesTable.Location = New System.Drawing.Point(60, 86)
-        Me.txtTimesTable.Multiline = True
-        Me.txtTimesTable.Name = "txtTimesTable"
-        Me.txtTimesTable.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtTimesTable.Size = New System.Drawing.Size(233, 186)
-        Me.txtTimesTable.TabIndex = 1
+        Me.txtScoreboard.Location = New System.Drawing.Point(231, 30)
+        Me.txtScoreboard.Multiline = True
+        Me.txtScoreboard.Name = "txtScoreboard"
+        Me.txtScoreboard.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.txtScoreboard.Size = New System.Drawing.Size(624, 382)
+        Me.txtScoreboard.TabIndex = 1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1026, 603)
-        Me.Controls.Add(Me.txtTimesTable)
-        Me.Controls.Add(Me.btnTimesTable)
+        Me.ClientSize = New System.Drawing.Size(1190, 826)
+        Me.Controls.Add(Me.txtScoreboard)
+        Me.Controls.Add(Me.btnScore)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -58,6 +58,6 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents btnTimesTable As Button
-    Friend WithEvents txtTimesTable As TextBox
+    Friend WithEvents btnScore As Button
+    Friend WithEvents txtScoreboard As TextBox
 End Class
